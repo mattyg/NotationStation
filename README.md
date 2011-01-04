@@ -5,6 +5,6 @@ INSTALLATION NOTES
 
 USER CONFIG
 ===
-DEFAULT_PRIORITY = 0
-DATABASE_PATH = '/Users/matt/CodingProjects/NotationStation/storage.db'
-COCOADIALOG_PATH = '/Applications/CocoaDialog.app/Contents/MacOS/CocoaDialog'
+- DEFAULT_PRIORITY = 0
+- DATABASE_PATH = '/Users/matt/CodingProjects/NotationStation/storage.db'
+- COCOADIALOG_PATH = '/Applications/CocoaDialog.app/Contents/MacOS/CocoaDialog'
