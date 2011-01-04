@@ -61,20 +61,8 @@ class Notes:
 			#get day of week from date
 			datedt = datetime.datetime.strptime(date,"%Y-%m-%d")
 			weekday = datedt.weekday()
-			if weekday == 0:
-				weekday = "Mon"
-			elif weekday == 1:
-				weekday = "Tues"
-			elif weekday == 2:
-				weekday = "Wed"
-			elif weekday == 3:
-				weekday = "Thurs"
-			elif weekday == 4:
-				weekday = "Fri"
-			elif weekday == 5:
-				weekday = "Sat"
-			elif weekday == 6:
-				weekday = "Sun"
+			weekdays = ["Mon","Tues","Wed","Thurs","Fri","Sat","Sun"]
+			weekday = weekdays[weekday]
 			
 			if date != tempdate:
 				# echo "\033[1;36mWoot\033[m"    prints blue
